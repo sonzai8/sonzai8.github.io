@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: about
 title: Giới thiệu
 permalink: /about/
 ---

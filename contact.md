@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: about
 title: Liên hệ
 permalink: /contact/
 ---
