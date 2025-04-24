@@ -11,6 +11,14 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
+    <nav class="top-menu">
+      <ul>
+        {% for item in site.navigation %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
