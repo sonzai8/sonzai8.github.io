@@ -32,4 +32,13 @@ plugins:
 paginate: 10
 paginate_path: "/page/:num"
 
+navigation:
+  - title: "Trang chủ"
+    url: "/"
+  - title: "Giới thiệu"
+    url: "/about/"
+  - title: "Liên hệ"
+    url: "/contact/"
+
+
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
